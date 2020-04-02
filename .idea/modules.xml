@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/VKS.iml" filepath="$PROJECT_DIR$/.idea/VKS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vks-authentication-service/authenticationservice.iml" filepath="$PROJECT_DIR$/vks-authentication-service/authenticationservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vks-comment-service/commentservice.iml" filepath="$PROJECT_DIR$/vks-comment-service/commentservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vks-config-service/configservice.iml" filepath="$PROJECT_DIR$/vks-config-service/configservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vks-discovery-service/discoveryservice.iml" filepath="$PROJECT_DIR$/vks-discovery-service/discoveryservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vks-email-service/emailservice.iml" filepath="$PROJECT_DIR$/vks-email-service/emailservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vks-gateway-service/gatewayservice.iml" filepath="$PROJECT_DIR$/vks-gateway-service/gatewayservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vks-infrastructure-service/infrastructureservice.iml" filepath="$PROJECT_DIR$/vks-infrastructure-service/infrastructureservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vks-user-service/userservice.iml" filepath="$PROJECT_DIR$/vks-user-service/userservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vks-vulnerability-service/vulnerabiltyservice.iml" filepath="$PROJECT_DIR$/vks-vulnerability-service/vulnerabiltyservice.iml" />
+    </modules>
+  </component>
+</project>

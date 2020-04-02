@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vks-authentication-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vks-comment-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vks-config-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vks-discovery-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vks-email-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vks-gateway-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vks-infrastructure-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vks-user-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vks-vulnerability-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vks-web-app" vcs="Git" />
+  </component>
+</project>

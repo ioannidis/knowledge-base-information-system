@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c082376b-332b-4e2a-aeac-88e5b03d5483" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/vks-authentication-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vks-authentication-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-authentication-service/src/main/java/com/nokia/vks/authenticationservice/AuthenticationServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-authentication-service/src/main/java/com/nokia/vks/authenticationservice/config/CorsConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-authentication-service/src/main/java/com/nokia/vks/authenticationservice/config/OAuth2Config.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-authentication-service/src/main/java/com/nokia/vks/authenticationservice/config/OAuth2ExceptionTranslatorConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-authentication-service/src/main/java/com/nokia/vks/authenticationservice/config/ResourceServerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-authentication-service/src/main/java/com/nokia/vks/authenticationservice/config/WebSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-authentication-service/src/main/java/com/nokia/vks/authenticationservice/controllers/AuthenticationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-authentication-service/src/main/java/com/nokia/vks/authenticationservice/controllers/RegistrationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-authentication-service/src/main/java/com/nokia/vks/authenticationservice/models/EmailModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-authentication-service/src/main/java/com/nokia/vks/authenticationservice/models/UserModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-authentication-service/src/main/java/com/nokia/vks/authenticationservice/models/entities/AuthorityEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-authentication-service/src/main/java/com/nokia/vks/authenticationservice/models/entities/PasswordResetEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-authentication-service/src/main/java/com/nokia/vks/authenticationservice/models/entities/UserEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-authentication-service/src/main/java/com/nokia/vks/authenticationservice/models/entities/embeddablekeys/AuthorityKey.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-authentication-service/src/main/java/com/nokia/vks/authenticationservice/models/entities/embeddablekeys/PasswordResetKey.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-authentication-service/src/main/java/com/nokia/vks/authenticationservice/models/request/PasswordResetRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-authentication-service/src/main/java/com/nokia/vks/authenticationservice/models/request/PasswordUpdateRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-authentication-service/src/main/java/com/nokia/vks/authenticationservice/models/request/SignUpRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-authentication-service/src/main/java/com/nokia/vks/authenticationservice/repositories/AuthRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-authentication-service/src/main/java/com/nokia/vks/authenticationservice/repositories/PasswordResetRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-authentication-service/src/main/java/com/nokia/vks/authenticationservice/services/AuthUserDetailsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-authentication-service/src/main/java/com/nokia/vks/authenticationservice/services/PasswordResetService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-authentication-service/src/main/java/com/nokia/vks/authenticationservice/services/impl/PasswordResetServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-authentication-service/src/main/java/com/nokia/vks/authenticationservice/utils/AuthenticationProviderVks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-authentication-service/src/main/java/com/nokia/vks/authenticationservice/utils/VksAuthenticationEntryPoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-authentication-service/src/main/java/com/nokia/vks/authenticationservice/utils/exceptions/ExceptionTemplate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-authentication-service/src/main/java/com/nokia/vks/authenticationservice/utils/exceptions/advices/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-authentication-service/src/main/java/com/nokia/vks/authenticationservice/utils/feignclients/EmailFeignClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-authentication-service/src/main/java/com/nokia/vks/authenticationservice/utils/validators/fieldmatch/FieldMatch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-authentication-service/src/main/java/com/nokia/vks/authenticationservice/utils/validators/fieldmatch/FieldMatchValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-authentication-service/src/test/java/com/nokia/vks/authenticationservice/AuthenticationServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/vks-authentication-service/src/test/java/com/nokia/vks/authenticationservice/AuthenticationServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-comment-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vks-comment-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-comment-service/src/main/java/com/nokia/vks/commentservice/CommentServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-comment-service/src/main/java/com/nokia/vks/commentservice/config/CorsConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-comment-service/src/main/java/com/nokia/vks/commentservice/config/PersistenceConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-comment-service/src/main/java/com/nokia/vks/commentservice/config/ResourceServerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-comment-service/src/main/java/com/nokia/vks/commentservice/controllers/CommentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-comment-service/src/main/java/com/nokia/vks/commentservice/models/PrincipalModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-comment-service/src/main/java/com/nokia/vks/commentservice/models/entities/BaseEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-comment-service/src/main/java/com/nokia/vks/commentservice/models/entities/CommentEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-comment-service/src/main/java/com/nokia/vks/commentservice/models/entities/UserEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-comment-service/src/main/java/com/nokia/vks/commentservice/models/requests/CommentRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-comment-service/src/main/java/com/nokia/vks/commentservice/models/responses/CommentResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-comment-service/src/main/java/com/nokia/vks/commentservice/repositories/CommentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-comment-service/src/main/java/com/nokia/vks/commentservice/services/CommentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-comment-service/src/main/java/com/nokia/vks/commentservice/services/impl/CommentServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-comment-service/src/main/java/com/nokia/vks/commentservice/utils/AuditorAwareSetup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-comment-service/src/main/java/com/nokia/vks/commentservice/utils/feignclients/UserFeignClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-comment-service/src/test/java/com/nokia/vks/commentservice/CommentserviceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/vks-comment-service/src/test/java/com/nokia/vks/commentservice/CommentserviceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-config-service/configservice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/vks-config-service/configservice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-config-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vks-config-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-config-service/src/main/java/com/nokia/vks/configservice/ConfigServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-config-service/src/test/java/com/nokia/vks/configservice/ConfigserviceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/vks-config-service/src/test/java/com/nokia/vks/configservice/ConfigserviceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-discovery-service/discoveryservice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/vks-discovery-service/discoveryservice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-discovery-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vks-discovery-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-discovery-service/src/main/java/com/nokia/vks/discoveryservice/DiscoveryServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-discovery-service/src/test/java/com/nokia/vks/discoveryservice/DiscoveryServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/vks-discovery-service/src/test/java/com/nokia/vks/discoveryservice/DiscoveryServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-email-service/emailservice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/vks-email-service/emailservice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-email-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vks-email-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-email-service/src/main/java/com/nokia/vks/emailservice/EmailServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-email-service/src/main/java/com/nokia/vks/emailservice/controllers/EmailController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-email-service/src/main/java/com/nokia/vks/emailservice/models/requests/EmailSendRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-email-service/src/main/java/com/nokia/vks/emailservice/services/EmailService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-email-service/src/main/java/com/nokia/vks/emailservice/services/impl/EmailServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-email-service/src/test/java/com/nokia/vks/emailservice/EmailserviceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/vks-email-service/src/test/java/com/nokia/vks/emailservice/EmailserviceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-gateway-service/gatewayservice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/vks-gateway-service/gatewayservice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-gateway-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vks-gateway-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-gateway-service/src/main/java/com/nokia/vks/gatewayservice/GatewayServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-gateway-service/src/test/java/com/nokia/vks/gatewayservice/GatewayserviceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/vks-gateway-service/src/test/java/com/nokia/vks/gatewayservice/GatewayserviceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-infrastructure-service/infrastructureservice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/vks-infrastructure-service/infrastructureservice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-infrastructure-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vks-infrastructure-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-infrastructure-service/src/main/java/com/nokia/vks/infrastructureservice/InfrastructureServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-infrastructure-service/src/main/java/com/nokia/vks/infrastructureservice/config/CorsConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-infrastructure-service/src/main/java/com/nokia/vks/infrastructureservice/config/ResourceServerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-infrastructure-service/src/main/java/com/nokia/vks/infrastructureservice/controllers/OemController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-infrastructure-service/src/main/java/com/nokia/vks/infrastructureservice/controllers/ProductController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-infrastructure-service/src/main/java/com/nokia/vks/infrastructureservice/controllers/SystemController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-infrastructure-service/src/main/java/com/nokia/vks/infrastructureservice/models/entities/BaseEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-infrastructure-service/src/main/java/com/nokia/vks/infrastructureservice/models/entities/OemEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-infrastructure-service/src/main/java/com/nokia/vks/infrastructureservice/models/entities/ProductEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-infrastructure-service/src/main/java/com/nokia/vks/infrastructureservice/models/entities/SystemEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-infrastructure-service/src/main/java/com/nokia/vks/infrastructureservice/repositories/OemRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-infrastructure-service/src/main/java/com/nokia/vks/infrastructureservice/repositories/ProductRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-infrastructure-service/src/main/java/com/nokia/vks/infrastructureservice/repositories/SystemRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-infrastructure-service/src/main/java/com/nokia/vks/infrastructureservice/services/OemService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-infrastructure-service/src/main/java/com/nokia/vks/infrastructureservice/services/ProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-infrastructure-service/src/main/java/com/nokia/vks/infrastructureservice/services/SystemService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-infrastructure-service/src/main/java/com/nokia/vks/infrastructureservice/services/impl/OemServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-infrastructure-service/src/main/java/com/nokia/vks/infrastructureservice/services/impl/ProductServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-infrastructure-service/src/main/java/com/nokia/vks/infrastructureservice/services/impl/SystemServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-infrastructure-service/src/test/java/com/nokia/vks/infrastructureservice/InfrastructureServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/vks-infrastructure-service/src/test/java/com/nokia/vks/infrastructureservice/InfrastructureServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vks-user-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-user-service/src/main/java/com/nokia/vks/userservice/UserServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-user-service/src/main/java/com/nokia/vks/userservice/config/CorsConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-user-service/src/main/java/com/nokia/vks/userservice/config/ResourceServerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-user-service/src/main/java/com/nokia/vks/userservice/config/ServiceConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-user-service/src/main/java/com/nokia/vks/userservice/controllers/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-user-service/src/main/java/com/nokia/vks/userservice/feignclients/UserFeignClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-user-service/src/main/java/com/nokia/vks/userservice/models/AuthorityModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-user-service/src/main/java/com/nokia/vks/userservice/models/UserModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-user-service/src/main/java/com/nokia/vks/userservice/models/entities/AuthorityEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-user-service/src/main/java/com/nokia/vks/userservice/models/entities/UserEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-user-service/src/main/java/com/nokia/vks/userservice/models/entities/embeddablekeys/AuthorityKey.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-user-service/src/main/java/com/nokia/vks/userservice/models/entities/embeddablekeys/PasswordResetKey.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-user-service/src/main/java/com/nokia/vks/userservice/models/requests/CreateUserRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-user-service/src/main/java/com/nokia/vks/userservice/models/requests/UpdateUserRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-user-service/src/main/java/com/nokia/vks/userservice/repositories/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-user-service/src/main/java/com/nokia/vks/userservice/services/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-user-service/src/main/java/com/nokia/vks/userservice/services/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-user-service/src/test/java/com/nokia/vks/userservice/UserServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/vks-user-service/src/test/java/com/nokia/vks/userservice/UserServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-user-service/userservice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/vks-user-service/userservice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-vulnerability-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vks-vulnerability-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-vulnerability-service/src/main/java/com/nokia/vulnerabilityservice/VulnerabilityServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-vulnerability-service/src/main/java/com/nokia/vulnerabilityservice/config/CorsConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-vulnerability-service/src/main/java/com/nokia/vulnerabilityservice/config/ResourceServerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-vulnerability-service/src/main/java/com/nokia/vulnerabilityservice/controllers/VulnerabilityController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-vulnerability-service/src/main/java/com/nokia/vulnerabilityservice/models/PrincipalModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-vulnerability-service/src/main/java/com/nokia/vulnerabilityservice/models/entities/BaseEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-vulnerability-service/src/main/java/com/nokia/vulnerabilityservice/models/entities/CommentEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-vulnerability-service/src/main/java/com/nokia/vulnerabilityservice/models/entities/OemEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-vulnerability-service/src/main/java/com/nokia/vulnerabilityservice/models/entities/ProductEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-vulnerability-service/src/main/java/com/nokia/vulnerabilityservice/models/entities/SystemEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-vulnerability-service/src/main/java/com/nokia/vulnerabilityservice/models/entities/UserEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-vulnerability-service/src/main/java/com/nokia/vulnerabilityservice/models/entities/VulnerabilityEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-vulnerability-service/src/main/java/com/nokia/vulnerabilityservice/models/requests/VulnerabilityRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-vulnerability-service/src/main/java/com/nokia/vulnerabilityservice/models/responses/VulnerabilityResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-vulnerability-service/src/main/java/com/nokia/vulnerabilityservice/repositories/VulnerabilityRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-vulnerability-service/src/main/java/com/nokia/vulnerabilityservice/services/VulnerabilityService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-vulnerability-service/src/main/java/com/nokia/vulnerabilityservice/services/impl/VulnerabilityServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-vulnerability-service/src/main/java/com/nokia/vulnerabilityservice/utils/enums/StatusEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-vulnerability-service/src/main/java/com/nokia/vulnerabilityservice/utils/feignclients/CommentFeignClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-vulnerability-service/src/main/java/com/nokia/vulnerabilityservice/utils/feignclients/InfrastructureFeignClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-vulnerability-service/src/main/java/com/nokia/vulnerabilityservice/utils/feignclients/UserFeignClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-vulnerability-service/src/main/java/com/nokia/vulnerabilityservice/utils/interceptors/FeignClientOAuth2Interceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-vulnerability-service/src/test/java/com/nokia/vulnerabilityservice/VulnerabilityServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/vks-vulnerability-service/src/test/java/com/nokia/vulnerabilityservice/VulnerabilityServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-vulnerability-service/vulnerabiltyservice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/vks-vulnerability-service/vulnerabiltyservice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-web-app/src/app/core/models/vulnerability/Vulnerability.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vks-web-app/src/app/core/models/vulnerability/Vulnerability.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-web-app/src/app/core/models/vulnerability/VulnerabilityInterface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vks-web-app/src/app/core/models/vulnerability/VulnerabilityInterface.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-web-app/src/app/core/services/vulnerabilities-service/vulnerability.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vks-web-app/src/app/core/services/vulnerabilities-service/vulnerability.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-web-app/src/app/modules/topics/topics/topics.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/vks-web-app/src/app/modules/topics/topics/topics.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-web-app/src/app/modules/users/users-show/users-show.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/vks-web-app/src/app/modules/users/users-show/users-show.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-web-app/src/app/modules/users/users-show/users-show.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vks-web-app/src/app/modules/users/users-show/users-show.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-web-app/src/app/modules/vulnerabilities/vulnerabilities-all/vulnerabilities-all.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/vks-web-app/src/app/modules/vulnerabilities/vulnerabilities-all/vulnerabilities-all.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-web-app/src/app/modules/vulnerabilities/vulnerabilities-all/vulnerabilities-all.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vks-web-app/src/app/modules/vulnerabilities/vulnerabilities-all/vulnerabilities-all.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vks-web-app/src/app/shared/layout/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/vks-web-app/src/app/shared/layout/header/header.component.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="vksdb@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="vksdb@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="vksdb@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="vksdb: database" type="162271b6:PgImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="vksdb@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="vksdb: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="vksdb@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="vksdb: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="vksdb@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="vksdb: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WC9PsaiyagYyIC4t5RxbZ3WXw0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/vks-web-app/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.nokia.vulnerabilityservice.models.requests" />
+      <recent name="com.nokia.vulnerabilityservice.config" />
+      <recent name="com.nokia.vulnerabilityservice.utils" />
+      <recent name="com.nokia.vks.commentservice.models.entities" />
+      <recent name="com.nokia.vulnerabilityservice.models.entities" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pioannid\Projects\VKS\vks-config-service\src\main\resources\config" />
+      <recent name="C:\Users\pioannid\Projects\VKS\vks-email-service\src\main\resources" />
+      <recent name="C:\Users\pioannid\Projects\VKS\vks-user-service\src\main\java\com\nokia\vks\userservice\models\entities" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.VulnerabilityServiceApplication">
+    <configuration name="ConfigServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nokia.vks.configservice.ConfigServiceApplication" />
+      <module name="configservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nokia.vks.configservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthenticationServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="authenticationservice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.nokia.vks.authenticationservice.AuthenticationServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommentserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="commentservice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.nokia.vks.commentservice.CommentServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="configservice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.nokia.vks.configservice.ConfigServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiscoveryServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="discoveryservice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.nokia.vks.discoveryservice.DiscoveryServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmailserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="emailservice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.nokia.vks.emailservice.EmailServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gatewayservice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.nokia.vks.gatewayservice.GatewayServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InfrastructureServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="infrastructureservice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.nokia.vks.infrastructureservice.InfrastructureServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="userservice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.nokia.vks.userservice.UserServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VulnerabilityServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="vulnerabiltyservice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.nokia.vulnerabilityservice.VulnerabilityServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ConfigServiceApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:vksdb@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\pioannid\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c082376b-332b-4e2a-aeac-88e5b03d5483" name="Default Changelist" comment="" />
+      <created>1578642688745</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578642688745</updated>
+      <workItem from="1578642692628" duration="32000" />
+      <workItem from="1578642761302" duration="2007000" />
+      <workItem from="1578644807364" duration="719000" />
+      <workItem from="1578645631338" duration="446000" />
+      <workItem from="1578646141913" duration="996000" />
+      <workItem from="1578647173588" duration="497000" />
+      <workItem from="1578647713688" duration="1328000" />
+      <workItem from="1578650786415" duration="486000" />
+      <workItem from="1578651301892" duration="628000" />
+      <workItem from="1578652213189" duration="301000" />
+      <workItem from="1578652541383" duration="39000" />
+      <workItem from="1578653409712" duration="74000" />
+      <workItem from="1578654530428" duration="4124000" />
+      <workItem from="1578898924173" duration="51199000" />
+      <workItem from="1580286194759" duration="13407000" />
+      <workItem from="1580303361264" duration="9364000" />
+      <workItem from="1580801683322" duration="27847000" />
+      <workItem from="1580982374638" duration="16053000" />
+      <workItem from="1582528115584" duration="7038000" />
+      <workItem from="1582615305089" duration="23191000" />
+      <workItem from="1582701538778" duration="25458000" />
+      <workItem from="1582808593791" duration="3997000" />
+      <workItem from="1583221073980" duration="24399000" />
+      <workItem from="1583846149893" duration="5066000" />
+      <workItem from="1583853806108" duration="21279000" />
+      <workItem from="1585218115831" duration="19675000" />
+      <workItem from="1585644940060" duration="14230000" />
+      <workItem from="1585818271668" duration="1125000" />
+      <workItem from="1585819833625" duration="646000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="392" y="89" key="#Project_Structure" timestamp="1578646365225">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="89" key="#Project_Structure/1600.0.1280.693/0.0.1600.860@0.0.1600.860" timestamp="1578646365225" />
+    <state x="254" y="86" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578659666642">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="254" y="86" key="#com.intellij.execution.impl.EditConfigurationsDialog/1600.0.1280.693/0.0.1600.860@0.0.1600.860" timestamp="1578659666642" />
+    <state x="581" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1585649596549">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="581" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1585649596549" />
+    <state x="605" y="147" key="#com.intellij.ide.util.MemberChooser/1600.-44.1536.832/0.0.1600.860/-1280.14.1280.984@0.0.1600.860" timestamp="1582811312774" />
+    <state x="605" y="147" key="#com.intellij.ide.util.MemberChooser/1600.-54.1536.832/0.0.1600.860/-1280.4.1280.984@0.0.1600.860" timestamp="1583415710339" />
+    <state x="605" y="147" key="#com.intellij.ide.util.MemberChooser/1600.0.1280.693/0.0.1600.860@0.0.1600.860" timestamp="1580293480760" />
+    <state x="605" y="147" key="#com.intellij.ide.util.MemberChooser/1600.0.1536.832/-1440.0.1440.860/0.0.1600.860@0.0.1600.860" timestamp="1583317832914" />
+    <state x="605" y="147" key="#com.intellij.ide.util.MemberChooser/1600.0.1536.832/0.0.1600.860@0.0.1600.860" timestamp="1580904819940" />
+    <state x="2698" y="2562" width="302" height="214" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1585818510504">
+      <screen x="1920" y="2160" width="1920" height="1080" />
+    </state>
+    <state x="648" y="320" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/1600.0.1280.693/0.0.1600.860@0.0.1600.860" timestamp="1578644669590" />
+    <state x="2698" y="2562" width="302" height="214" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/1920.2160.1920.1080/3840.2160.1280.1024/3840.0.3840.2160/0.2160.1920.1080@1920.2160.1920.1080" timestamp="1585818510504" />
+    <state x="551" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1582709380400">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="551" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1600.0.1536.832/-1440.0.1440.860/0.0.1600.860@0.0.1600.860" timestamp="1582709380400" />
+    <state x="551" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1600.0.1536.832/0.0.1600.860@0.0.1600.860" timestamp="1580805454474" />
+    <state x="371" y="119" key="EnvironmentVariablesDialog" timestamp="1578644397344">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="371" y="119" key="EnvironmentVariablesDialog/1600.0.1280.693/0.0.1600.860@0.0.1600.860" timestamp="1578644397344" />
+    <state x="467" y="116" key="FileChooserDialogImpl" timestamp="1584532855926">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="389" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1578647490758" />
+    <state x="467" y="116" key="FileChooserDialogImpl/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1584532855926" />
+    <state x="486" y="121" key="FileChooserDialogImpl/1600.0.1280.693/0.0.1600.860@0.0.1600.860" timestamp="1579091910164" />
+    <state width="557" height="985" key="GridCell.Tab.0.bottom" timestamp="1585665867993">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="557" height="985" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1585665867993" />
+    <state width="1493" height="283" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1583865748435" />
+    <state width="826" height="985" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584615696230" />
+    <state width="1557" height="287" key="GridCell.Tab.0.bottom/1600.-44.1536.832/0.0.1600.860/-1280.14.1280.984@0.0.1600.860" timestamp="1582812429713" />
+    <state width="1557" height="302" key="GridCell.Tab.0.bottom/1600.-54.1536.832/0.0.1600.860/-1280.4.1280.984@0.0.1600.860" timestamp="1583416146162" />
+    <state width="1557" height="299" key="GridCell.Tab.0.bottom/1600.0.1280.693/0.0.1600.860@0.0.1600.860" timestamp="1580482574153" />
+    <state width="1557" height="302" key="GridCell.Tab.0.bottom/1600.0.1536.832/-1440.0.1440.860/0.0.1600.860@0.0.1600.860" timestamp="1583332337150" />
+    <state width="1557" height="299" key="GridCell.Tab.0.bottom/1600.0.1536.832/0.0.1600.860@0.0.1600.860" timestamp="1580911686332" />
+    <state width="557" height="985" key="GridCell.Tab.0.center" timestamp="1585665867992">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="557" height="985" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1585665867992" />
+    <state width="1493" height="283" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1583865748435" />
+    <state width="826" height="985" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584615696230" />
+    <state width="1557" height="287" key="GridCell.Tab.0.center/1600.-44.1536.832/0.0.1600.860/-1280.14.1280.984@0.0.1600.860" timestamp="1582812429713" />
+    <state width="1557" height="302" key="GridCell.Tab.0.center/1600.-54.1536.832/0.0.1600.860/-1280.4.1280.984@0.0.1600.860" timestamp="1583416146162" />
+    <state width="1557" height="299" key="GridCell.Tab.0.center/1600.0.1280.693/0.0.1600.860@0.0.1600.860" timestamp="1580482574153" />
+    <state width="1557" height="302" key="GridCell.Tab.0.center/1600.0.1536.832/-1440.0.1440.860/0.0.1600.860@0.0.1600.860" timestamp="1583332337149" />
+    <state width="1557" height="299" key="GridCell.Tab.0.center/1600.0.1536.832/0.0.1600.860@0.0.1600.860" timestamp="1580911686332" />
+    <state width="557" height="985" key="GridCell.Tab.0.left" timestamp="1585665867991">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="557" height="985" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1585665867991" />
+    <state width="1493" height="283" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1583865748435" />
+    <state width="826" height="985" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584615696229" />
+    <state width="1557" height="287" key="GridCell.Tab.0.left/1600.-44.1536.832/0.0.1600.860/-1280.14.1280.984@0.0.1600.860" timestamp="1582812429712" />
+    <state width="1557" height="302" key="GridCell.Tab.0.left/1600.-54.1536.832/0.0.1600.860/-1280.4.1280.984@0.0.1600.860" timestamp="1583416146162" />
+    <state width="1557" height="299" key="GridCell.Tab.0.left/1600.0.1280.693/0.0.1600.860@0.0.1600.860" timestamp="1580482574153" />
+    <state width="1557" height="302" key="GridCell.Tab.0.left/1600.0.1536.832/-1440.0.1440.860/0.0.1600.860@0.0.1600.860" timestamp="1583332337149" />
+    <state width="1557" height="299" key="GridCell.Tab.0.left/1600.0.1536.832/0.0.1600.860@0.0.1600.860" timestamp="1580911686332" />
+    <state width="557" height="985" key="GridCell.Tab.0.right" timestamp="1585665867992">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="557" height="985" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1585665867992" />
+    <state width="1493" height="283" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1583865748435" />
+    <state width="826" height="985" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584615696230" />
+    <state width="1557" height="287" key="GridCell.Tab.0.right/1600.-44.1536.832/0.0.1600.860/-1280.14.1280.984@0.0.1600.860" timestamp="1582812429713" />
+    <state width="1557" height="302" key="GridCell.Tab.0.right/1600.-54.1536.832/0.0.1600.860/-1280.4.1280.984@0.0.1600.860" timestamp="1583416146162" />
+    <state width="1557" height="299" key="GridCell.Tab.0.right/1600.0.1280.693/0.0.1600.860@0.0.1600.860" timestamp="1580482574153" />
+    <state width="1557" height="302" key="GridCell.Tab.0.right/1600.0.1536.832/-1440.0.1440.860/0.0.1600.860@0.0.1600.860" timestamp="1583332337149" />
+    <state width="1557" height="299" key="GridCell.Tab.0.right/1600.0.1536.832/0.0.1600.860@0.0.1600.860" timestamp="1580911686332" />
+    <state width="557" height="985" key="GridCell.Tab.1.bottom" timestamp="1585665867994">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="557" height="985" key="GridCell.Tab.1.bottom/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1585665867994" />
+    <state width="1493" height="283" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1583865748435" />
+    <state width="826" height="985" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584615696230" />
+    <state width="1557" height="287" key="GridCell.Tab.1.bottom/1600.-44.1536.832/0.0.1600.860/-1280.14.1280.984@0.0.1600.860" timestamp="1582812429713" />
+    <state width="1557" height="302" key="GridCell.Tab.1.bottom/1600.-54.1536.832/0.0.1600.860/-1280.4.1280.984@0.0.1600.860" timestamp="1583416146163" />
+    <state width="1557" height="299" key="GridCell.Tab.1.bottom/1600.0.1280.693/0.0.1600.860@0.0.1600.860" timestamp="1580482574153" />
+    <state width="1557" height="302" key="GridCell.Tab.1.bottom/1600.0.1536.832/-1440.0.1440.860/0.0.1600.860@0.0.1600.860" timestamp="1583332337151" />
+    <state width="1557" height="299" key="GridCell.Tab.1.bottom/1600.0.1536.832/0.0.1600.860@0.0.1600.860" timestamp="1580911686333" />
+    <state width="557" height="985" key="GridCell.Tab.1.center" timestamp="1585665867994">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="557" height="985" key="GridCell.Tab.1.center/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1585665867994" />
+    <state width="1493" height="283" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1583865748435" />
+    <state width="826" height="985" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1584615696230" />
+    <state width="1557" height="287" key="GridCell.Tab.1.center/1600.-44.1536.832/0.0.1600.860/-1280.14.1280.984@0.0.1600.860" timestamp="1582812429713" />
+    <state width="1557" height="302" key="GridCell.Tab.1.center/1600.-54.1536.832/0.0.1600.860/-1280.4.1280.984@0.0.1600.860" timestamp="1583416146162" />
+    <state width="1557" height="299" key="GridCell.Tab.1.center/1600.0.1280.693/0.0.1600.860@0.0.1600.860" timestamp="1580482574153" />
+    <state width="1557" height="302" key="GridCell.Tab.1.center/1600.0.1536.832/-1440.0.1440.860/0.0.1600.860@0.0.1600.860" timestamp="1583332337150" />
+    <state width="1557" height="299" key="GridCell.Tab.1.center/1600.0.1536.832/0.0.1600.860@0.0.1600.860" timestamp="1580911686333" />
+    <state width="557" height="985" key="GridCell.Tab.1.left" timestamp="1585665867993">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="557" height="985" key="GridCell.Tab.1.left/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1585665867993" />
+    <state width="1493" height="283" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1583865748435" />
+    <state width="826" height="985" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1584615696230" />
+    <state width="1557" height="287" key="GridCell.Tab.1.left/1600.-44.1536.832/0.0.1600.860/-1280.14.1280.984@0.0.1600.860" timestamp="1582812429713" />
+    <state width="1557" height="302" key="GridCell.Tab.1.left/1600.-54.1536.832/0.0.1600.860/-1280.4.1280.984@0.0.1600.860" timestamp="1583416146162" />
+    <state width="1557" height="299" key="GridCell.Tab.1.left/1600.0.1280.693/0.0.1600.860@0.0.1600.860" timestamp="1580482574153" />
+    <state width="1557" height="302" key="GridCell.Tab.1.left/1600.0.1536.832/-1440.0.1440.860/0.0.1600.860@0.0.1600.860" timestamp="1583332337150" />
+    <state width="1557" height="299" key="GridCell.Tab.1.left/1600.0.1536.832/0.0.1600.860@0.0.1600.860" timestamp="1580911686332" />
+    <state width="557" height="985" key="GridCell.Tab.1.right" timestamp="1585665867994">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="557" height="985" key="GridCell.Tab.1.right/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1585665867994" />
+    <state width="1493" height="283" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1583865748435" />
+    <state width="826" height="985" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1584615696230" />
+    <state width="1557" height="287" key="GridCell.Tab.1.right/1600.-44.1536.832/0.0.1600.860/-1280.14.1280.984@0.0.1600.860" timestamp="1582812429713" />
+    <state width="1557" height="302" key="GridCell.Tab.1.right/1600.-54.1536.832/0.0.1600.860/-1280.4.1280.984@0.0.1600.860" timestamp="1583416146162" />
+    <state width="1557" height="299" key="GridCell.Tab.1.right/1600.0.1280.693/0.0.1600.860@0.0.1600.860" timestamp="1580482574153" />
+    <state width="1557" height="302" key="GridCell.Tab.1.right/1600.0.1536.832/-1440.0.1440.860/0.0.1600.860@0.0.1600.860" timestamp="1583332337151" />
+    <state width="1557" height="299" key="GridCell.Tab.1.right/1600.0.1536.832/0.0.1600.860@0.0.1600.860" timestamp="1580911686333" />
+    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1578659875672">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="196" height="457" key="HiddenNamespacesPopup/1600.0.1280.693/0.0.1600.860@0.0.1600.860" timestamp="1578659875672" />
+    <state x="137" y="0" width="999" height="707" key="SettingsEditor" timestamp="1583921109230">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="110" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1578647574790" />
+    <state x="137" y="0" width="999" height="707" key="SettingsEditor/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1583921109230" />
+    <state x="143" y="0" width="1040" height="708" key="SettingsEditor/1600.0.1280.693/0.0.1600.860@0.0.1600.860" timestamp="1578654655843" />
+    <state x="143" y="0" key="SettingsEditor/1600.0.1536.832/-1440.0.1440.860/0.0.1600.860@0.0.1600.860" timestamp="1583221794354" />
+    <state x="143" y="0" key="SettingsEditor/1600.0.1536.832/0.0.1600.860@0.0.1600.860" timestamp="1580805394968" />
+    <state x="530" y="236" key="com.intellij.database.dbimport.ImportUtil.MyDialog" timestamp="1582805199539">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="530" y="236" key="com.intellij.database.dbimport.ImportUtil.MyDialog/1600.-44.1536.832/0.0.1600.860/-1280.14.1280.984@0.0.1600.860" timestamp="1582805199539" />
+    <state x="530" y="236" key="com.intellij.database.dbimport.ImportUtil.MyDialog/1600.0.1536.832/0.0.1600.860@0.0.1600.860" timestamp="1580802661611" />
+    <state x="596" y="256" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1582809313866">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="596" y="256" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/1600.-44.1536.832/0.0.1600.860/-1280.14.1280.984@0.0.1600.860" timestamp="1582809313866" />
+    <state x="489" y="69" width="582" height="730" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1585646626725">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="489" y="69" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1585646626725" />
+    <state x="509" y="72" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/1600.-44.1536.832/0.0.1600.860/-1280.14.1280.984@0.0.1600.860" timestamp="1582809910753" />
+    <state x="509" y="72" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/1600.0.1280.693/0.0.1600.860@0.0.1600.860" timestamp="1579271102786" />
+    <state x="509" y="72" width="582" height="730" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/1600.0.1536.832/-1440.0.1440.860/0.0.1600.860@0.0.1600.860" timestamp="1582725568657" />
+    <state x="509" y="72" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/1600.0.1536.832/0.0.1600.860@0.0.1600.860" timestamp="1580802992870" />
+    <state x="475" y="244" key="com.intellij.ide.util.TipDialog" timestamp="1585644995386">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="396" y="202" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1578647173836" />
+    <state x="475" y="244" key="com.intellij.ide.util.TipDialog/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1585644995386" />
+    <state x="475" y="244" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1583853805094" />
+    <state x="495" y="255" key="com.intellij.ide.util.TipDialog/1600.-44.1536.832/0.0.1600.860/-1280.14.1280.984@0.0.1600.860" timestamp="1582808593896" />
+    <state x="495" y="255" key="com.intellij.ide.util.TipDialog/1600.0.1280.693/0.0.1600.860@0.0.1600.860" timestamp="1580303370205" />
+    <state x="495" y="255" key="com.intellij.ide.util.TipDialog/1600.0.1536.832/-1440.0.1440.860/0.0.1600.860@0.0.1600.860" timestamp="1583221125422" />
+    <state x="495" y="255" key="com.intellij.ide.util.TipDialog/1600.0.1536.832/0.0.1600.860@0.0.1600.860" timestamp="1580801722939" />
+    <state x="362" y="319" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1578648443904">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="362" y="319" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/1600.0.1280.693/0.0.1600.860@0.0.1600.860" timestamp="1578648443904" />
+    <state x="483" y="110" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1582809952893">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="483" y="110" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1600.-44.1536.832/0.0.1600.860/-1280.14.1280.984@0.0.1600.860" timestamp="1582809952893" />
+    <state x="127" y="0" width="1046" height="873" key="dock-window-1" timestamp="1580982482749">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="1600" y="0" width="962" height="733" key="dock-window-1/1600.0.1280.693/0.0.1600.860@1600.0.1280.693" timestamp="1579085970284" />
+    <state x="127" y="0" width="1046" height="873" key="dock-window-1/1600.0.1536.832/-1440.0.1440.860/0.0.1600.860@0.0.1600.860" timestamp="1580982482749" />
+    <state x="1722" y="0" width="1004" height="844" key="dock-window-1/1600.0.1536.832/0.0.1600.860@0.0.1600.860" timestamp="1580887478913" />
+    <state x="1600" y="0" width="962" height="733" maximized="true" key="dock-window-2" timestamp="1579178927357">
+      <screen x="1600" y="0" width="1280" height="693" />
+    </state>
+    <state x="1600" y="0" width="962" height="733" maximized="true" key="dock-window-2/1600.0.1280.693/0.0.1600.860@0.0.1600.860" timestamp="1579178927356" />
+    <state x="2233" y="0" width="653" height="687" key="dock-window-3" timestamp="1579264231903">
+      <screen x="1600" y="0" width="1280" height="693" />
+    </state>
+    <state x="2233" y="0" width="653" height="687" key="dock-window-3/1600.0.1280.693/0.0.1600.860@0.0.1600.860" timestamp="1579264231903" />
+    <state x="523" y="0" width="653" height="727" key="dock-window-4" timestamp="1580286224927">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="523" y="0" width="653" height="727" key="dock-window-4/1600.0.1280.693/0.0.1600.860@0.0.1600.860" timestamp="1580286224927" />
+    <state x="2516" y="2211" width="947" height="1011" key="find.popup" timestamp="1585820643801">
+      <screen x="1920" y="2160" width="1920" height="1080" />
+    </state>
+    <state x="477" y="27" width="757" height="771" key="find.popup/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1584024456493" />
+    <state x="477" y="27" width="757" height="771" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1583852363790" />
+    <state x="497" y="28" width="677" height="804" key="find.popup/1600.-44.1536.832/0.0.1600.860/-1280.14.1280.984@0.0.1600.860" timestamp="1582812107177" />
+    <state x="497" y="28" width="661" height="804" key="find.popup/1600.0.1280.693/0.0.1600.860@0.0.1600.860" timestamp="1580303984204" />
+    <state x="497" y="28" width="662" height="804" key="find.popup/1600.0.1536.832/-1440.0.1440.860/0.0.1600.860@0.0.1600.860" timestamp="1582725717125" />
+    <state x="497" y="28" width="662" height="804" key="find.popup/1600.0.1536.832/0.0.1600.860@0.0.1600.860" timestamp="1580821651304" />
+    <state x="2516" y="2211" width="947" height="1011" key="find.popup/1920.2160.1920.1080/3840.2160.1280.1024/3840.0.3840.2160/0.2160.1920.1080@1920.2160.1920.1080" timestamp="1585820643801" />
+    <state x="209" y="34" key="new project wizard" timestamp="1584532809588">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="209" y="34" key="new project wizard/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1584532809588" />
+    <state x="456" y="195" key="run.anything.popup" timestamp="1582723872712">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="456" y="195" key="run.anything.popup/1600.0.1280.693/0.0.1600.860@0.0.1600.860" timestamp="1580302734425" />
+    <state x="456" y="195" key="run.anything.popup/1600.0.1536.832/-1440.0.1440.860/0.0.1600.860@0.0.1600.860" timestamp="1582723872712" />
+    <state x="444" y="172" width="672" height="650" key="search.everywhere.popup" timestamp="1585655687029">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="444" y="172" width="672" height="650" key="search.everywhere.popup/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1585655687029" />
+    <state x="444" y="172" width="672" height="650" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1583860308308" />
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/1600.-44.1536.832/0.0.1600.860/-1280.14.1280.984@0.0.1600.860" timestamp="1582811874217" />
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/1600.-54.1536.832/0.0.1600.860/-1280.4.1280.984@0.0.1600.860" timestamp="1583416090403" />
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/1600.0.1280.693/0.0.1600.860@0.0.1600.860" timestamp="1580369647340" />
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/1600.0.1536.832/0.0.1600.860@0.0.1600.860" timestamp="1580898038309" />
+  </component>
+</project>

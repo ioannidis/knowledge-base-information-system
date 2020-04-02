@@ -1,0 +1,19 @@
+server:
+  port:
+    8087
+
+security:
+  oauth2:
+    resource:
+      userInfoUri: http://localhost:8082/oauth/user
+
+eureka:
+  instance:
+    prefereIpAddress: true
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    region: default
+    registryFetchIntervalSeconds: 5
+    serviceUrl:
+      defaultZone: http://localhost:8081/eureka/

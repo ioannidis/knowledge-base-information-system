@@ -1,0 +1,34 @@
+server:
+  port : 8082
+
+spring:
+  application:
+    name: gatewayservice
+# Cloud
+  cloud:
+    gateway:
+      routes:
+        - id: authorizationservice
+          uri: http://localhost:8901
+          predicates:
+            - Path=/oauth/**
+        - id: userservice
+          uri: http://localhost:8085
+          predicates:
+            - Path=/v1/users/**
+        - id: vulnerabilityservice
+          uri: http://localhost:8086
+          predicates:
+            - Path=/v1/vulnerabilities/**
+        - id: infrastructureservice
+          uri: http://localhost:8087
+          predicates:
+            - Path=/v1/products/**, /v1/systems/**, /v1/oems/**
+        - id: emailservice
+          uri: http://localhost:8902
+          predicates:
+            - Path=/v1/email/**
+        - id: commentservice
+          uri: http://localhost:8088
+          predicates:
+            - Path=/v1/comments/**
